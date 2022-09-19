@@ -1,6 +1,6 @@
 <?php
 
-namespace MartinBean\Laravel\Socialite;
+namespace Mykkenny\Laravel\Socialite;
 
 use Laravel\Socialite\Two\AbstractProvider;
 use Laravel\Socialite\Two\ProviderInterface;
@@ -12,7 +12,6 @@ class DiscordProvider extends AbstractProvider implements ProviderInterface
      * {@inheritDoc}
      */
     protected $scopes = [
-        'email',
         'identify',
     ];
 

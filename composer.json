@@ -1,7 +1,7 @@
 {
-    "name": "martinbean/socialite-discord-provider",
+    "name": "mykkenny/socialite-discord-provider",
     "description": "A Discord provider for Laravel Socialite.",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "type": "library",
     "keywords": [
         "laravel",
@@ -13,14 +13,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Martin Bean",
-            "email": "martin@martinbean.co.uk",
-            "homepage": "https://martinbean.co.uk"
+            "name": "Michael Kenny",
+            "email": "mykkenny@gmail.com.co.uk",
+            "homepage": ""
         }
     ],
     "support": {
-        "issues": "https://github.com/martinbean/socialite-discord-provider/issues",
-        "source": "https://github.com/martinbean/socialite-discord-provider"
+        "issues": "https://github.com/mykkenny/socialite-discord-provider/issues",
+        "source": "https://github.com/mykkenny/socialite-discord-provider"
     },
     "require": {
         "facade/ignition-contracts": "^1.0",
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MartinBean\\Laravel\\Socialite\\": "src/"
+            "Mykkenny\\Laravel\\Socialite\\": "src/"
         }
     },
     "config": {
@@ -37,7 +37,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MartinBean\\Laravel\\Socialite\\DiscordServiceProvider"
+                "Mykkenny\\Laravel\\Socialite\\DiscordServiceProvider"
             ]
         }
     }

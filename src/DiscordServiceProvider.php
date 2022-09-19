@@ -1,6 +1,6 @@
 <?php
 
-namespace MartinBean\Laravel\Socialite;
+namespace Mykkenny\Laravel\Socialite;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Arr;

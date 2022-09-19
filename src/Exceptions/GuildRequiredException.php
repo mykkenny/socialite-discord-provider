@@ -1,6 +1,6 @@
 <?php
 
-namespace MartinBean\Laravel\Socialite\Exceptions;
+namespace Mykkenny\Laravel\Socialite\Exceptions;
 
 use Facade\IgnitionContracts\BaseSolution;
 use Facade\IgnitionContracts\ProvidesSolution;

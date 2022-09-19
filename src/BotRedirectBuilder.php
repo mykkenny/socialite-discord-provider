@@ -1,9 +1,9 @@
 <?php
 
-namespace MartinBean\Laravel\Socialite;
+namespace Mykkenny\Laravel\Socialite;
 
 use Illuminate\Http\RedirectResponse;
-use MartinBean\Laravel\Socialite\Exceptions\GuildRequiredException;
+use Mykkenny\Laravel\Socialite\Exceptions\GuildRequiredException;
 
 class BotRedirectBuilder
 {
